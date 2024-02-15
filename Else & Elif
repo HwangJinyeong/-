@@ -6,6 +6,7 @@ print("Here is your money")`
 `else:
 print("Wrong password")`
 
+# False니까 Wrong password 출력하겠지?
 #############################
 
 `winner = 10`
@@ -16,3 +17,5 @@ elif winner < 10:
 print("Winner is less than 10")
 else:
 print("Winner is 10")`
+
+# elif 조건O / else 조건X
