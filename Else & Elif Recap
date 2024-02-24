@@ -1,0 +1,46 @@
+`winner = 5`
+
+`if winner < 10:
+print("RUN!")`
+
+- if = true냐 false를 판별
+- 위 내용은 true 니까 RUN! 이 도출됨
+
+###############################
+
+`winner = 5`
+
+`if winner < 10:
+print("If")
+else:
+print("Else")`
+
+- true 면 If 도출
+- false 면 Else 도출
+
+###############################
+
+`winner = 5`
+
+`if winner != 10:
+print("If")
+else:
+print("Else")`
+
+- ! = : 같지 않다 (붙여쓰니까 바로 ≠ 요렇게 바뀌어서 나오네)
+
+###############################
+
+`winner = 5`
+
+`if winner != 10:
+print("If")
+elif winner <= 25:
+print("Elif")
+elif winner == 5:
+print("Elif 2")
+else:
+print("Else")` 
+
+- If 도출됨
+    - 위에서부터 확인하는데 if에서 true가 나왔기 때문에 나머지 아래는 안봄
