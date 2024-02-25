@@ -1,28 +1,28 @@
 ### python 카지노 (pc_choice 직접 입력)
 
-`user_choice = int(input("Choose number."))
-pc_choice = 50`
+user_choice = int(input("Choose number."))
+pc_choice = 50
 
-`if user_choice == pc_choice:
+if user_choice == pc_choice:
 print("You won!")
 elif user_choice > pc_choice:
 print("Lower!")
 elif user_choice < pc_choice:
-print("Higher!")`
+print("Higher!")
 
 ### python 카지노 (pc_choice 랜덤 입력)
 
-`from random import randint`
+from random import randint
 
-`user_choice = int(input("Choose number."))
-pc_choice = randint(1, 50)`
+user_choice = int(input("Choose number."))
+pc_choice = randint(1, 50)
 
-`if user_choice == pc_choice:
+if user_choice == pc_choice:
 print("You won!")
 elif user_choice > pc_choice:
 print("Lower! Computer chose", pc_choice)
 elif user_choice < pc_choice:
-print("Higher! Computer chose", pc_choice)`
+print("Higher! Computer chose", pc_choice)
 
 ### Python Standard Library
 
