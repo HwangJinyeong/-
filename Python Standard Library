@@ -1,0 +1,35 @@
+### python 카지노 (pc_choice 직접 입력)
+
+`user_choice = int(input("Choose number."))
+pc_choice = 50`
+
+`if user_choice == pc_choice:
+print("You won!")
+elif user_choice > pc_choice:
+print("Lower!")
+elif user_choice < pc_choice:
+print("Higher!")`
+
+### python 카지노 (pc_choice 랜덤 입력)
+
+`from random import randint`
+
+`user_choice = int(input("Choose number."))
+pc_choice = randint(1, 50)`
+
+`if user_choice == pc_choice:
+print("You won!")
+elif user_choice > pc_choice:
+print("Lower! Computer chose", pc_choice)
+elif user_choice < pc_choice:
+print("Higher! Computer chose", pc_choice)`
+
+### Python Standard Library
+
+- built-in functions > 함수 볼 수 있음 (항상 사용할 수 있는 function)
+- 이것 말고도 함수가 갱장히 많아여
+- random.randint(a, b) : a와 b 사이의 random한 숫자를 제공
+    - 얘를 사용하고 싶어? 불러와야지
+        - 코드 맨 위에 `from random import randint` 작성
+        - 랜덤으로 돌아갔으면 하는 코드에 함수 입력
+        e.g. pc_choice = randint(1, 50)
